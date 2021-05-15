@@ -32,11 +32,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `project core dependencies to proceed`
 dependencies: 
     
-    npm i express (nodejs framework)
+    npm i express --save (nodejs framework)
     
     npm i body-parser (parse the request)
     
-    npm i nodemon (reload page automatically each time you edit file)
+    npm i nodemon --save -dev(reload page automatically each time you edit file)
     
     npm i mongoose (database)
     
@@ -46,7 +46,7 @@ dependencies:
  
 You can use [Postman](https://www.postman.com/) to test all the Api endpoints.
  
-###`Methods to create Api routes & url to make request to a specific route`
+### `Methods to create Api routes & url to make request to a specific route`
 
 -GET (to get all the post)[http://localhost/9000/posts]
 
@@ -61,20 +61,35 @@ You can use [Postman](https://www.postman.com/) to test all the Api endpoints.
 
 ### `sample Api call result`
 [
+
     {
+    
         "tags": [
+        
             "bday",
+            
             " bdaybash"
+            
         ],
+        
         "likeCount": 8,
+        
         "createdAt": "2021-05-11T23:34:03.670Z",
+        
         "_id": "609b15040164f91fa04266ed",
+        
         "title": "B'day",
+        
         "message": "It was a fun day. Get together with all family and friends was all what I wanted",
+        
         "selectedFile": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD,
+        
         "creator":Goldy,
+        
          "__v": 0
+         
     }
+    
 ]
   
 
