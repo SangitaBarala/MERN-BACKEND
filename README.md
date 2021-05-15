@@ -50,11 +50,15 @@ You can use [Postman](https://www.postman.com/) to test all the Api endpoints.
 
 -GET (to get all the post)[http://localhost/9000/posts]
 
+
 -GET (to get a specific post)[http://localhost/9000/posts/id]
+
 
 -POST (to add a new post)[http://localhost/9000/posts]
 
+
 -PATCH (to update a post)[http://localhost/9000/posts/id]
+
 
 -DELETE (to delete a post)[http://localhost/9000/posts/id]
 
