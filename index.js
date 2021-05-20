@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const cors = require('cors')
-const PORT = 9000
+const PORT = process.env.PORT || 9000
 const app = express();
 
 app.use(bodyParser.json({limit:"30mb", extended:true}))
