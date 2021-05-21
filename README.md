@@ -96,6 +96,12 @@ You can use [Postman](https://www.postman.com/) to test all the Api endpoints.
     
 ]
   
+## `Backend Deployement`
+This project's backend is deployed through [Heroku](heroku.com) deployment cloud platform
+
+You can see it on "https://mern-node-backend.herokuapp.com/posts"
+
+or [click here](https://mern-node-backend.herokuapp.com/posts) to see it running
 
 ## Learn More
 
